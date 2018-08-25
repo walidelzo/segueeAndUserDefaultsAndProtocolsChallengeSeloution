@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CreateAccountViewController.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *userLabel;
+@property (weak, nonatomic) IBOutlet UILabel *passWordLabel;
 
 @end
 

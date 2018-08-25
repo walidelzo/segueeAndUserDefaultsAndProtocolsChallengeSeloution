@@ -14,9 +14,11 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _userLabel.text= [[NSUserDefaults standardUserDefaults]objectForKey:USER_NAME];
+    _passWordLabel.text=[[NSUserDefaults standardUserDefaults]objectForKey:USER_PASSWORD];
 }
 
 
